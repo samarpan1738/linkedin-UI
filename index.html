@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <navbar>
+    <navbar class="desktop-navbar">
         <div class="left">
             <!-- <div class="logo-container"> -->
-                <img src="https://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" class="logo" alt="Logo">
+                <img class="logo" src="https://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" alt="Logo">
             <!-- </div> -->
             <div class="search-box">
                 <div class="search-icon-container">
@@ -59,6 +59,20 @@
             </div>
         </div>
     </navbar>
+    <navbar class="mobile-navbar">
+        <img src="./assets/dp.jpeg" alt="" class="dp">
+        <div class="search-box">
+            <div class="search-icon-container">
+                <img src="./assets/search-icon-24x24.png" alt="Search Icon" class="search-icon">
+            </div>
+            <input type="text" placeholder="Search" class="search-input-field">
+        </div>
+        <div class="mobile-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="white" width="24" height="24" focusable="false">
+                <path d="M18 10H6V9h12v1zm4-5v17l-5-4H3a1 1 0 01-1-1V5a1 1 0 011-1h18a1 1 0 011 1zm-2 1H4v10h13.7l2.3 1.84V6zm-4 6H8v1h8v-1z"></path>
+              </svg>
+        </div>
+    </navbar>
     <div class="hero-section">
         <div class="post">
             <div class="headline">
@@ -71,7 +85,7 @@
             </div>
             <header class="author-meta">
                 <div class="author-img-container">
-                    <img src="https://media-exp1.licdn.com/dms/image/C5103AQGbiCSyC7ZLkQ/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=_-OZI0pgkD5cibDYLIylsHzuVGVqt6Hheuvj79obWac" alt="">
+                    <img src="./assets/dp.jpeg" alt="">
                 </div>
                 <div class="author-info">
                     <p><span class="author-name">Anurag Mishra ∙ </span> <span>1st</span></p>
@@ -146,7 +160,7 @@
             </div>
             <header class="author-meta">
                 <div class="author-img-container">
-                    <img src="https://media-exp1.licdn.com/dms/image/C5103AQGbiCSyC7ZLkQ/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=_-OZI0pgkD5cibDYLIylsHzuVGVqt6Hheuvj79obWac" alt="">
+                    <img src="./assets/dp.jpeg" alt="">
                 </div>
                 <div class="author-info">
                     <p><span class="author-name">Anurag Mishra ∙ </span> <span>1st</span></p>
@@ -221,7 +235,7 @@
             </div>
             <header class="author-meta">
                 <div class="author-img-container">
-                    <img src="https://media-exp1.licdn.com/dms/image/C5103AQGbiCSyC7ZLkQ/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=_-OZI0pgkD5cibDYLIylsHzuVGVqt6Hheuvj79obWac" alt="">
+                    <img src="assets/dp.jpeg" alt="">
                 </div>
                 <div class="author-info">
                     <p><span class="author-name">Anurag Mishra ∙ </span> <span>1st</span></p>
@@ -284,6 +298,15 @@
                 </div>
             </div>
 
+        </div>
+        <div class="bottom-nav">
+            <ul type="none" class="nav-items-list">
+                <li><img class="nav-item" src="./assets/home-64x64.png" alt=""></li>
+                <li><img class="nav-item" src="./assets/home-64x64.png" alt=""></li>
+                <li><img class="nav-item" src="./assets/home-64x64.png" alt=""></li>
+                <li><img class="nav-item" src="./assets/home-64x64.png" alt=""></li>
+                <li><img class="nav-item" src="./assets/home-64x64.png" alt=""></li>
+            </ul>
         </div>
     </div>
 </body>
